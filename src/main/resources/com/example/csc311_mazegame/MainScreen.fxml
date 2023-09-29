@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.example.csc311_mazegame.MainScreen"
-            prefHeight="400.0" prefWidth="600.0" >
-
-</AnchorPane>
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc311_mazegame.MainScreenController" minHeight="400" minWidth="600">
+    <Button text="Load Maze 1" onAction="#loadMaze1" />
+    <Button text="Load Maze 2" onAction="#loadMaze2" />
+</VBox>

@@ -1,11 +1,11 @@
 package com.example.csc311_mazegame;
 
-import com.example.csc311_mazegame.MainScreenController;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
+
 import javafx.stage.Stage;
 
 import java.io.IOException;
