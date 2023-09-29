@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<?import javafx.scene.shape.Rectangle?>
+<VBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.csc311_mazegame.MazeController">
+    <TabPane VBox.vgrow="ALWAYS">
+        <tabs>
+            <Tab text="Maze 1">
+                <content>
+                    <ImageView fx:id="mazeImageView1" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+
+                    </ImageView>
+                </content>
+            </Tab>
+            <Tab text="Maze 2">
+                <content>
+                    <ImageView fx:id="mazeImageView2" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+
+                    </ImageView>
+                </content>
+            </Tab>
+        </tabs>
+    </TabPane>
+</VBox>
